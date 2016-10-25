@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/cabin_style_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/cabin_font_bold_italic"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/cabin_style_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/cabin_font_bold"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/cabin_style_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/cabin_font_regular_normal"
+            android:textSize="18sp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/cabin_style_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/cabin_font_italic"
+            android:textSize="18sp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:id="@+id/raley_style_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/raleway_font_bold_italic"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/raley_style_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/raleway_font_bold"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/raley_style_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/raleway_font_regular_normal"
+            android:textSize="18sp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/raley_style_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/raleway_font_italic"
+            android:textSize="18sp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:id="@+id/lazy_load"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/bungeeinline_font_loaded_lazily_regular_normal"/>
+
+    </LinearLayout>
+
+</ScrollView>
