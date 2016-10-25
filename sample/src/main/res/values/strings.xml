@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Funty sample</string>
+    <string name="cabin_font_bold_italic">Cabin font -> bold_italic</string>
+    <string name="cabin_font_bold">Cabin font -> bold</string>
+    <string name="cabin_font_regular_normal">Cabin font -> regular/normal</string>
+    <string name="cabin_font_italic">Cabin font -> italic</string>
+    <string name="raleway_font_bold_italic">Raleway font -> bold_italic</string>
+    <string name="raleway_font_bold">Raleway font -> bold</string>
+    <string name="raleway_font_regular_normal">Raleway font -> regular/normal</string>
+    <string name="raleway_font_italic">Raleway font -> italic</string>
+    <string name="bungeeinline_font_loaded_lazily_regular_normal">BungeeInline font(loaded lazily -> regular/normal</string>
+</resources>
